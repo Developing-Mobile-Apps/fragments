@@ -56,8 +56,8 @@
             tools:layout_editor_absoluteY="288dp" />
     </ScrollView>
 
-    <fragment
-        android:id="@+id/fragment"
+    <FrameLayout
+        android:id="@+id/fragment_container"
         android:name="com.example.fragments.SimpleFragment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
