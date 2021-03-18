@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/beatles_anthology_box" />
 
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/title2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_wide"
@@ -48,7 +48,7 @@
         app:layout_constraintTop_toBottomOf="@+id/title">
 
         <TextView
-            android:id="@+id/article"
+            android:id="@+id/article2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/article2"
@@ -67,7 +67,7 @@
         tools:layout="@layout/fragment_simple" />
 
     <Button
-        android:id="@+id/open_button"
+        android:id="@+id/open_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -85,6 +85,6 @@
         android:onClick="launchMainActivity"
         android:text="@string/previous"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/open_button" />
+        app:layout_constraintTop_toBottomOf="@+id/open_button2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
